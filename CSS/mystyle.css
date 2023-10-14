@@ -1,0 +1,68 @@
+/*Alexander Dimitri Iwanowski - 8932811*/
+
+body{
+    width : 100% ;
+    max-width: 1200px;
+    margin:  auto;
+    font: 16px Arial, sans-serif;
+    padding: 20px;
+}
+
+h1{
+    color: navy;
+    font-variant: small-caps;
+}
+h2{
+    color: navy;
+    font-variant: small-caps;
+}
+
+aside{
+    float:right;
+    width: 25%;
+    margin-right: 20px;
+}
+.mainimg{
+    width: 300px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+footer p{
+    font: 14px;
+    color: rgb(92, 190, 6);
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #f30;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+ul li{
+    list-style-type: none;
+    line-height:1.5 ;
+}
+ul > li > a{
+    text-decoration: none;
+    color: rgb(25, 0, 255);
+}
+aside a:hover{
+    color: #f30;
+}
+main{
+    float: left;
+    width: 70%;
+    margin-bottom: 50px;
+}
+footer{
+    clear : both;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+}
