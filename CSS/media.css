@@ -1,0 +1,155 @@
+/*Alexander Dimitri Iwanowski - 8932811*/
+body{
+    width : 100vw;
+    height : 100vh;
+    background-color: hsla(240, 8%, 95%, 0.5);
+    display : flex;
+    flex-direction: column;
+}
+header{ 
+    color: rgb(13, 13, 222);
+    text-align: center;
+    border: 0.3rem solid black;
+    background-image: linear-gradient(to bottom right, blue, navy, cornflowerblue);
+}
+nav{ 
+    margin: 1rem;
+    border: 0.3rem solid rgb(0, 76, 255); 
+    border-radius:3rem;
+    padding: 2rem 0; 
+    text-align: center; 
+}
+nav a{  
+    font-size: 1.5em; 
+    font-weight: bold; 
+    color: rgb(17, 62, 222); 
+    text-decoration: none; 
+    padding: 0; 
+}
+nav ul{ 
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+}
+nav>ul>li{ 
+    display: inline-block; 
+    position: relative; 
+}
+nav ul li ul { 
+    display: none; 
+}
+nav ul li:hover ul{
+    display: block;
+}
+nav ul li ul { 
+	width: 150%;
+	position: absolute; 
+	z-index: 999; 
+	text-align: left; 
+	background-color: rgb(246, 248, 250); 
+    box-shadow: 0 0 5rem rgb(178, 171, 194); 
+}
+nav ul li ul li a{ 
+    color: white; 
+    padding: 1rem; 
+    display: block; 
+}
+nav ul li ul li:hover a:hover{
+    color:rgb(255, 255, 255); 
+    background-color: white; 
+}
+main{
+    flex: 2 1 70%;
+    background-color : hsl(228, 17%, 94%);
+}
+aside{
+    flex: 2 1 30%;
+    background: url(../IMG/index.jpeg);
+    background-position: center;
+}
+aside > li{
+    list-style-type: square;
+    line-height: 2em;
+    color: black;
+}
+aside a:hover{
+    color : rgb(255, 196, 0);
+}
+section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.structural{
+    margin : 1rem;
+    padding : 1rem;
+    border : 0.1em solid black;
+}
+h1{
+    color: rgb(227, 227, 236);
+    font-variant: small-caps;
+}
+h2{
+    color: rgb(47, 47, 156);
+    font-variant: small-caps;
+}
+aside h3{
+    color: white;
+    font-variant: small-caps;
+}
+q{
+    font-family: cursive;
+    font-style: italic;
+    font-size: larger;
+}
+#morganimg{
+    position: relative;
+    width: 10em;
+    margin-left: 0;
+    float: left;
+    border: 0.03em solid black;
+    border-radius: 50%;
+    shape-outside: circle();
+}
+section p{
+    color: black;
+    text-align: justify;
+    shape-outside: circle();
+}
+table{
+    max-width: 100%;
+    margin-top: 1.25em;
+    border-collapse: collapse;
+ }
+ table, th, td{
+     border: 0.03125 solid black;
+ }
+ th, td{
+     padding: 1.5em;
+     text-align: left;
+ }
+ th{
+     background-color: rgb(238, 239, 243);
+ }
+footer p{
+    font: 7rem;
+    color: rgb(242, 241, 236);
+    text-align: center;
+}
+footer{
+    background-image: linear-gradient(to bottom right, blue, navy, cornflowerblue);
+}
+footer{
+    clear : both;
+}
+
+
+
+
+
+
+
+
+
